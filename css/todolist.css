@@ -1,0 +1,27 @@
+body{
+	
+	background: orange
+}
+
+li{
+	border : 2px solid red
+}
+
+ul{
+	
+	background : yellow
+}
+
+#special{
+	background : blue
+}
+
+button {
+	border : 5px solid ##FFFF00;
+	background: #FD0000
+}
+
+.pending {
+	text-decoration : line-through;
+
+}
