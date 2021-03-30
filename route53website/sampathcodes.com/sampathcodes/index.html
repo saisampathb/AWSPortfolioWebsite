@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>About Sampath</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+    <script type="text/javascript">
+        // Wait for document to load
+        document.addEventListener("DOMContentLoaded", function (event) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        });
+    </script>
+    <script type="text/javascript">
+        // Wait for document to load
+        document.addEventListener("DOMContentLoaded", function (event) {
+            document.documentElement.setAttribute("data-theme", "light");
+
+            // Get our button switcher
+            var themeSwitcher = document.getElementById("theme-switcher")
+
+            // When our button gets clicked
+            themeSwitcher.onclick = function () {
+                // Get the current selected theme, on the first run
+                // it should be `light`
+                var currentTheme = document.documentElement.getAttribute("data-theme");
+
+                if (themeSwitcher.value == 'Dark') {
+                    themeSwitcher.value = 'Light';
+                    themeSwitcher.className ='btn btn-light'
+                } else {
+                    themeSwitcher.value = 'Dark';
+                    themeSwitcher.className ='btn btn-dark'
+                }
+                // Switch between `dark` and `light`
+                var switchToTheme = currentTheme === "dark" ? "light" : "dark"
+
+                // Set our currenet theme to the new one
+                document.documentElement.setAttribute("data-theme", switchToTheme);
+            }
+        });
+    </script>
+
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">Sai Sampath Kumar</span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
+                <!--<li><input id="theme-switcher" type="button" class="btn btn-dark" value="Dark"></li>-->
+            </ul>
+        </div>
+        <!--<button id="theme-switcher" value="Dark"></button>-->
+    </nav>
+    <!-- Page Content-->
+    <div class="container-fluid p-0">
+        <!-- About-->
+        <section class="resume-section" id="about">
+            <div class="resume-section-content">
+                <h1 class="mb-0">
+                    Sai
+                    <span class="text-primary"> Sampath </span>
+                    Kumar
+                </h1>
+                <div class="subheading mb-5">
+                    Singapore · (65) 96440320 ·
+                    <a style="color: #000000" href="mailto:er.sampathsai@gmail.com">er.sampathsai@gmail.com</a>
+                </div>
+                <p class="lead mb-7">I am an experienced <b>Big Data and Cloud Engineer </b>. I have worked with a variety of clients from the banking and cyber security domain that involved migration, ingestion, computation and validation of huge amounts of data. My Interest lies in using big data and cloud computing tools along with open source stack to help companies realise the potential of data cost effectively. Please feel free to reach out to me on below urls to know more about my work.
+                </p>
+                <div class="social-icons">
+                    <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/saisampathkumarb/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" target="_blank" href="https://github.com/saisampathb"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" target="_blank" href="resume.pdf"><i class="fas fa-user" data-fa-mask="fas fa-file" data-fa-transform="down-2 shrink-8" ></i></a>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Experience-->
+        <section class="resume-section" id="experience">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Experience</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Senior Consultant, Data and Analytics </h3>
+                        <div class="subheading mb-3">Ernst and Young</div>
+                        <p>Implement cloud and on-premise compatible data frameworks and providing Data and Analytics consulting to clients from the Financial services industry.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Jan 2021 - Present</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Application Consultant, Advanced Analytics and Big Data</h3>
+                        <div class="subheading mb-3">National Computer Systems</div>
+                        <p>Install and maintain different services in HDP(3.1.4), HDF(1.9.2) clusters. Implement data flow pipelines using NiFi, Kafka and Spark. Process continuous logs and make data available for dashboards. </p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Jan 2020 - Jan 2021</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">IT Analyst, Analytics and Insights</h3>
+                        <div class="subheading mb-3">Tata Consultancy Services</div>
+                        <p>Implement Ingestion, Computation, Validation and Downstream consumption frameworks using big data cloudera stack and help migrate finance and risk data from legacy oracle systems to data lake. A variety of tools from Big data Stack and Apache Open source  have been used.</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">Aug 2016 - Jan 2020</span></div>
+                </div>
+                <div style="width:800px; margin:0 auto;"><small style="color: darkgrey"><-- This is a summary of my experience. Please refer to my <a href="resume.pdf" target="_blank">resume</a> for more details. --> </small></div>
+
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Education-->
+        <section class="resume-section" id="education">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">GITAM UNIVERSITY</h3>
+                        <div class="subheading mb-3">Bachelor of Technology</div>
+                        <div>Electronics and Communication Engineering</div>
+                        <p>GPA: 9.17</p>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">June 2012 - August 2016</span></div>
+                </div>
+                <!--<div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">James Buchanan High School</h3>
+                    <div class="subheading mb-3">Technology Magnet Program</div>
+                    <p>GPA: 3.56</p>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+            </div>-->
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Skills-->
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-3">Skills</h2>
+                <div style="width:800px; margin:0 auto;">
+                    <div class="mb-2 p-2 px-md-5">
+                        <div class="subheading"> Big Data Tools </div>
+                        <div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Hadoop
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    Spark(+Job Server, +Azure Databricks)
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Hive
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    NiFi(HDF)
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Sqoop
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Kafka
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Impala
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Spline
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-2 p-2 px-md-5">
+                        <div class="subheading "> Databases </div>
+                        <div class="inner">
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Maria DB
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    MYSQL
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    Oracle(For Migrating SQL)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-2 p-2 px-md-5">
+                        <div class="subheading "> CLOUD </div>
+                        <div class="inner">
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    AWS ( Certified Solutions Architect Associate )
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    Azure ( Certified DP-200 )
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-2 p-2 px-md-5">
+                        <div class="subheading "> WEB TECHNOLOGIES </div>
+                        <div class="inner">
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Angular 9 and above.
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    Spring Boot
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-2 p-2 px-md-5">
+                        <div class="subheading "> PROGRAMMING LANGUAGES </div>
+                        <div class="inner">
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Java
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    Python
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fas fa-check flex-column"></i></span>
+                                    Scala
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr class="m-0" />
+        <!-- Certifications-->
+        <section class="resume-section" id="certifications">
+            <div class="resume-section-content">
+                <h2 class="mb-3">Certifications</h2>
+                <!--<div class="row">
+                    <div class="column certimages">
+                        <a href="https://www.youracclaim.com/badges/4d92f9d2-e934-4516-bd77-11170d911b54/public_url" target="_blank"><img class="mb-3" style="width:100%" src="assets/img/aws-saa.png"></a>
+                    </div>
+                    <div class="column certimages" style="margin-left:auto">
+                        <a href="https://www.youracclaim.com/badges/d02ed51f-c31d-4349-a83c-24255472d9a9/linked_in_profile" target="_blank"><img class="mb-3" style="width:60%; padding-left: auto"src="assets/img/dp-200-azure.png"></a>
+                    </div>
+                </div>-->
+                <div class="row" style="margin-top: 100px">
+                    <div class="certimages column"><a href="https://www.youracclaim.com/badges/4d92f9d2-e934-4516-bd77-11170d911b54/public_url" target="_blank"><img src="assets/img/aws-saa.png"></a></div>
+                    <div class="certimages column" style="margin-left:180px"><a href="https://www.youracclaim.com/badges/d02ed51f-c31d-4349-a83c-24255472d9a9/linked_in_profile" target="_blank"><img src="assets/img/dp-200-azure.png"></a></div>
+                </div>
+            </div>
+        </section>
+        <!--awards-->
+        <section class="resume-section" id="awards">
+            <div class="resume-section-content" style="width:100%; height:100%">
+                <h2 class="mb-3">Awards</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        Merit Cum Means Scholarship for all 8 Semesters at the university.
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://drive.google.com/drive/folders/1EPripWOIxOIogGLsYk9UpRRaJ9Ng1DQd" target="_blank">On the Spot Award</a> - Oct,2018
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://drive.google.com/drive/folders/1EPripWOIxOIogGLsYk9UpRRaJ9Ng1DQd" target="_blank">Star of the Month Award,TCS</a> - Oct,2018
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                        <a href="https://drive.google.com/drive/folders/1EPripWOIxOIogGLsYk9UpRRaJ9Ng1DQd" target="_blank">Anchor Award, TCS</a> - Jan,2019
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="resume-section" id="courses">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Courses</h2>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <span class="fa-li"><i class="fas fa-book text-warning"></i></span>
+                        <a href="https://linuxacademy.com/profile/u/cert/id/302264" target="_blank">Google Cloud ProfessionalData Engineer Course</a>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-book text-warning"></i></span>
+                        <a href="https://www.youracclaim.com/badges/d9ecefbd-dbc0-430c-a2c0-000ededb4b97/public_url" target="_blank">IBM Blockchain Foundation Developer</a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-book text-warning"></i></span>
+                        <a href="https://www.youracclaim.com/earner/earned/badge/e6f693a0-d689-4ea8-aff7-82d617e224c9" target="_blank">Docker Essentials: A Developer Introduction</a>
+                    </li>
+                    <li>
+                        <span class="fa-li"><i class="fas fa-book text-warning"></i></span>
+                        <a href="https://linuxacademy.com/profile/u/cert/id/265281" target="_blank">Ansible: Playbooks Deep Dive</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
