@@ -1,2 +1,11 @@
 # html-css-js
-Commiting all that code I learnt to build static websites to host them on S3 and route them using AWS Route53
+
+This website is hosted on AWS S3 using Route 53 and cloudfront.
+
+website : 
+
+[SampathCodes](https://sampathcodes.com)
+
+Architecture Diagram :
+
+![Architecture ](architecture.PNG)
