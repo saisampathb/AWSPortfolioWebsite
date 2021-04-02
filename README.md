@@ -1,4 +1,4 @@
-# html-css-js
+# Portfolio Website
 
 This website is hosted on AWS S3 using Route 53 and cloudfront.
 
